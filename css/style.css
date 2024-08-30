@@ -1,0 +1,98 @@
+/* Put any custom CSS styles here.  */
+/* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
+body {
+  margin: 0;
+  font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  min-height: 100vh;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  background-color:#EAEBEF;
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+
+.credits {
+  color: #777;
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.credits a {
+  color: #000;
+  font-weight: bold;
+}
+/* my design */
+.container{
+  display: flex;
+  background-color: white;
+  margin: auto;
+  width: 340px;
+  height: 504px;
+  margin-top: 200px;
+  overflow: hidden; /* This will clip the content within rounded corners */
+  border-radius: 8px;/*why is it not working*/
+  border: 1px solid #EAEBEF; /* Adds a light gray border */
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+.blog-img{
+  width: 100%;
+  height: 288px;
+  object-fit: cover;
+}
+
+.blog-bubble{
+  font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  margin-top: 24px;
+  margin-left: 16px;
+  margin-bottom: 8px;
+  color: #15803d;
+  font-size: 14px;
+  background-color: #f0fdf4;
+  border-radius: 9999px;
+  padding: 8px 2px;
+  height: 24px;
+  width: 67px;
+  border: #bbf7d0 solid 1px;
+  display: flex;            /* Add flex display */
+  align-items: center;      /* Center vertically */
+  justify-content: center; 
+}
+
+.blog-heading{
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 16px;
+}
+
+.blog-description{
+  padding-left: 16px;
+  margin-top: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #525252 ;
+}
+
+.link{
+  margin-top: 24px;
+  padding-left: 16px;
+  margin-bottom: 24px;
+}
+
+a{
+  font-weight: 500;
+  font-size: 16px;
+  color: #4338ca;
+  text-decoration: none;
+}
