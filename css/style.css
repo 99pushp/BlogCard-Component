@@ -38,7 +38,7 @@ body {
   margin: auto;
   width: 340px;
   height: 504px;
-  margin-top: 200px;
+  margin-top: 120px;
   overflow: hidden; /* This will clip the content within rounded corners */
   border-radius: 8px;/*why is it not working*/
   border: 1px solid #EAEBEF; /* Adds a light gray border */
@@ -95,4 +95,48 @@ a{
   font-size: 16px;
   color: #4338ca;
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-top: 120px; /* Less margin on smaller screens */
+  }
+
+  .blog-heading {
+    font-size: 16px; /* Slightly smaller font size */
+  }
+
+  .blog-description {
+    font-size: 14px; /* Slightly smaller font size */
+  }
+
+  .blog-bubble {
+    font-size: 12px; /* Smaller bubble font size */
+  }
+
+  a {
+    font-size: 14px; /* Smaller link font size */
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 95%; /* Increase width for very small screens */
+  }
+
+  .blog-heading {
+    font-size: 14px; /* Further reduce font size */
+  }
+
+  .blog-description {
+    font-size: 12px; /* Further reduce font size */
+  }
+
+  .blog-bubble {
+    font-size: 10px; /* Further reduce bubble font size */
+  }
+
+  a {
+    font-size: 12px; /* Further reduce link font size */
+  }
 }
